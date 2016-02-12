@@ -1,0 +1,16 @@
+---
+- name: "Create Directory" | aws-cli | /root/.aws
+  file:
+    state: directory
+    path: /root/.aws
+
+- name: "Upload Config" | aws-cli | configuration
+  template:
+    src: "root/.aws/{{ item }}"
+    dest: "/root/.aws/{{ item }}"
+  with_items:
+    - config
+    - credentials
+  tags:
+    - configuration
+    - template-configuration

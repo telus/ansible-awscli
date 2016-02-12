@@ -1,0 +1,17 @@
+---
+dependencies:
+  - role: telusdigital.python
+
+galaxy_info:
+  author: Aaron Pederson
+  company: "TELUS digital"
+  description: AWS Command Line Interface - a unified tool to manage your AWS services.
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  categories:
+    - cloud:ec2
+    - system
+    - networking
