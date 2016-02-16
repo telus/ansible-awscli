@@ -1,8 +1,8 @@
 # ansible-awscli
 
-[aws-cli](https://aws.amazon.com/cli/) a unified tool to manage your AWS services.
+[awscli](https://aws.amazon.com/cli/) a unified tool to manage your AWS services.
 
-[![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)[![Build Status](https://travis-ci.org/telusdigital/ansible-awscli.svg?branch=master)](https://travis-ci.org/telusdigital/ansible-aws-cli)
+[![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)[![Build Status](https://travis-ci.org/telusdigital/ansible-awscli.svg?branch=master)](https://travis-ci.org/telusdigital/ansible-awscli)
 
 Tunables
 --------
