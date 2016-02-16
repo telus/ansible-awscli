@@ -4,7 +4,6 @@
   remote_user: root
 
   roles:
-    # name of role to test
     - role: ansible-awscli
       awscli_access_key_id: REDACTED
       awscli_secret_access_key: REDACTED
