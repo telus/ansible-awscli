@@ -6,7 +6,8 @@
 
 Tunables
 --------
-None
+* ```awscli_access_key_id``` (string) - AWS access key for awscli user.
+* ```awscli_secret_access_key``` (string) - AWS access key for awscli user.
 
 Dependencies
 ------------
