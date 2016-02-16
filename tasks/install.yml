@@ -1,6 +1,7 @@
 ---
 - name: Install Packages | pip
   pip:
+    state: latest
     name: "{{ item }}"
   with_items:
     - awscli
