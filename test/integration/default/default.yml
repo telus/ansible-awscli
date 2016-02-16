@@ -5,6 +5,6 @@
 
   roles:
     # name of role to test
-    - role: ansible-aws-cli
-      aws_cli_access_key_id: REDACTED
-      aws_cli_secret_key_id: REDACTED
+    - role: ansible-awscli
+      awscli_access_key_id: REDACTED
+      awscli_secret_access_key: REDACTED

@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'ansible-aws-cli::default' do
+describe 'ansible-awscli::default' do
 
-  describe package('aws-cli') do
+  describe package('awscli') do
     it { should be_installed.by('pip') }
 
   describe file('/root/.aws/config') do
